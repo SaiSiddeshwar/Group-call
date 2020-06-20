@@ -159,11 +159,6 @@
 
         </io.agora.propeller.ui.AGLinearLayout>
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/msg_list"
-            android:layout_width="272dp"
-            android:layout_height="144dp"
-            android:layout_above="@id/bottom_container" />
 
     </RelativeLayout>
 </FrameLayout>

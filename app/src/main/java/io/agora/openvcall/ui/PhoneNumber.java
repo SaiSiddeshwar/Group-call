@@ -31,7 +31,7 @@ public class PhoneNumber extends AppCompatActivity {
                     return;
                 }
 
-                Intent intent = new Intent(PhoneNumber.this, VerifyPhoneActivity.class);
+                Intent intent = new Intent(PhoneNumber.this, MainActivity.class);
                 intent.putExtra("mobile", mobile);
                 startActivity(intent);
             }

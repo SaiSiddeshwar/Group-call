@@ -244,8 +244,7 @@ public class CallActivity extends BaseActivity implements DuringCallEventHandler
 
         findViewById(R.id.extra_ops_container).setVisibility(hide ? View.INVISIBLE : View.VISIBLE);
         findViewById(R.id.bottom_action_container).setVisibility(hide ? View.INVISIBLE : View.VISIBLE);
-        findViewById(R.id.msg_list).setVisibility(hide ? View.INVISIBLE : (Constant.DEBUG_INFO_ENABLED ? View.VISIBLE : View.INVISIBLE));
-    }
+      }
 
     private void relayoutForVirtualKeyPad(int orientation) {
         int virtualKeyHeight = virtualKeyHeight();
@@ -286,9 +285,7 @@ public class CallActivity extends BaseActivity implements DuringCallEventHandler
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CALL_OPTIONS_REQUEST) {
-            RecyclerView msgListView = (RecyclerView) findViewById(R.id.msg_list);
-            msgListView.setVisibility(Constant.DEBUG_INFO_ENABLED ? View.VISIBLE : View.INVISIBLE);
-        }
+          }
     }
 
     public void onClickHideIME(View view) {
