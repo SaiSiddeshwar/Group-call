@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783361117215",
+    "firebase_url": "https://openvideocall-18f1b.firebaseio.com",
+    "project_id": "openvideocall-18f1b",
+    "storage_bucket": "openvideocall-18f1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783361117215:android:0566236a672ff47022d92a",
+        "android_client_info": {
+          "package_name": "io.agora.openvcall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783361117215-n4cq6numqkg4l6viicvhqdmu5dk03m6m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.agora.openvcall",
+            "certificate_hash": "0180127e0d4cbf3079de92624a5441f9739707c9"
+          }
+        },
+        {
+          "client_id": "783361117215-111of1kul8g8midccqb9smr8j2u8vqqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu7Y_2Qg6XKfXkKMrMSBWLA-vThzCdKxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783361117215-111of1kul8g8midccqb9smr8j2u8vqqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
